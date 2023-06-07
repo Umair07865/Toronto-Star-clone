@@ -1,0 +1,523 @@
+
+
+body{
+    overflow-x: hidden;
+}
+.navTop{
+   
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.innerHeader{
+
+    height: 100%;
+    width: 40%;
+    /* background-image: url("https://www.businesslightblog.xyz/crypto-in-01/img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: left; */
+}
+.innerHeader img{
+    height: 100%;
+    width: 100%;
+}
+.innerCategories{
+
+    height: 100%;
+    width: 43%;
+}
+table{
+ 
+    width: 80%;
+    margin: auto;
+}
+table tr{
+
+    height: 1rem;
+  
+}
+table tr td{
+
+   
+    text-align: center;
+
+}
+.firstData{
+    text-align: center;
+ background-color: rgb(3, 104, 219);   
+ color: white; 
+ border-radius: 10px;
+
+}
+section{
+
+    
+    width: 100%;
+  
+
+}
+
+button{
+    border: 1px solid rgb(0, 132, 255);
+    background-color: white;
+    color: rgb(0, 132, 255);;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.secondRow{
+    margin-top: 2rem;
+}
+.secondRow > td{
+    text-align: left;
+   
+   
+    padding-top: 1rem;
+    margin-top: 1rem;
+    
+    font-weight: 900;
+   
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.firstRow{
+    margin-left: 1rem !important;
+}
+.check{
+    border: 1px solid black;
+    width: 2rem;
+    border-radius: 5px;
+}
+.middleCheckbox{
+    border-left: 1px solid rgb(157, 157, 157);
+    border-right: 1px solid rgb(157, 157, 157);;
+}
+
+#section2{
+    height: fit-content;
+    padding: 0.3rem 0;
+    
+    background-color: rgb(248, 248, 248);
+}
+.section2Innerdiv{
+   
+   
+    width: 70%;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+
+    margin-left: 10%;
+}
+#section2 ul{
+    list-style: none;
+    display: flex;
+    width: 73%;
+  
+    justify-content: space-between;
+}
+#section3{
+    padding: 0.3rem 0;
+    background-color: rgb(235, 236, 235);
+    /* border: 1px solid black; */
+}
+#section3 ul{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    margin: 0 32%;
+    gap: 2rem;
+    background-color: rgb(235, 236, 235);
+    padding: 3px;
+    /* border: 1px solid black; */
+}
+
+/*section 4 css starts from here*/
+#section4{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    display:flex;
+   
+}
+#section4 > div{
+    /* border: 1px solid black; */
+    padding: 1rem;
+}
+.section4LeftDiv{
+    height: 100%;
+    width: 60%;
+}
+.section4LeftDiv h1{
+    font-size: 3rem;
+}
+.section4LeftDiv p{
+    font-size: 1.5rem;
+
+}
+.section4RightDiv{
+    height: 100%;
+    width: 35%;
+}
+.firstImage{
+    height: 120px;
+    width: 100%;
+    margin-top: 3rem;
+}
+.secondImage{
+    height: 450px;
+    width: 100%;
+}
+span p{
+    font-size: 20px;
+    margin-top: 1rem;
+
+}
+span a{
+    text-decoration: none;
+    color: rgb(0, 166, 255);
+}
+.thirdImage{
+    height: 430px;
+    width: 100%;
+    margin-top: 1rem ;
+
+}
+.span{
+    margin: 0 !important;
+   font-size: 15px !important;
+    text-align: center;
+}
+.secondHeading{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.span2{
+    margin: 2rem 0 !important;
+}
+.registerBtn{
+    width: 70%;
+   
+    margin: 0 13%;
+
+    background-color: rgb(221, 4, 4);
+    text-align: center;
+    color: white;
+    height: 3rem;
+    border: none;
+    transition: ease 0.5s;
+
+}
+.registerBtn:hover{
+    transform: scale(1.2);
+}
+.h3{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+.commentsSection{
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin-top: 2rem;
+
+
+}
+.commentsInnerHeader{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    padding:  0 2rem;
+    width: 90%;
+    justify-content: space-between;
+}
+.listpaddings{
+    margin: 0;
+    font-size: 1rem !important;
+    color: rgb(48, 9, 219);
+}
+
+.innerPeoplecomment{
+    /* border: 1px solid black; */
+   height: fit-content;
+    margin-top: 2rem;
+    display: flex;
+   gap: 2rem;
+   border-bottom: 1px solid gray;
+}
+/* .innerPeoplecomment > div{
+    border: 1px solid black;
+} */
+.commentImg{
+    height: 4rem;
+    width: 4rem;
+}
+.commentPadding{
+
+    margin: 0.2rem 0;
+    font-size: 1rem !important;
+}
+.span3{
+    font-size: 0.9rem !important;
+}
+.cmntLikes{
+    color: rgb(0, 102, 255);
+}
+.cmnttime{
+    color: #808080;
+    border-bottom: 1px dotted #808080;
+}
+.plugins{
+    margin:1rem;
+ color: rgb(0, 136, 255);
+ font-size: 14px;
+}
+
+footer{
+ 
+    background-color: rgb(17, 6, 6);
+    color: white;
+    height: 100px;
+    padding: 1rem;
+    width: 100%;
+
+}
+footer ul{
+  
+     list-style: none;
+    
+     justify-content: space-around;
+     display: flex;
+     margin: auto;
+     width: 20%;
+     padding: 1rem;
+   
+}
+
+.section4RightDivImg{
+    height: 300px;
+    width: 100%;
+}
+.section4RightDiv h5{
+    border-bottom: 2px solid rgb(62, 128, 0);
+
+}
+.section4RightDiv a{
+   color: gray;
+   text-decoration: none;
+   font-size: 1rem;
+}
+.secondrightdivanchors{
+    text-decoration: none ;
+    color: rgb(1, 98, 209) !important;
+}
+.section4RightDiv p{
+    font-size: 1.2rem;
+}
+.posters{
+    height: fit-content;
+    width: 100%;
+}
+.poostersDiv{
+    height: fit-content;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 90%;
+    border: 1px solid gray;
+    background-color: rgb(244, 244, 244);
+}
+.posterinner{
+    margin: 1rem 0;
+    display: flex;
+} 
+.posterinner span{
+    margin-top: 1rem;
+}
+.posterimgCheck{
+    width: 2rem;
+    height: 2rem;
+}
+/*second after collapse navbar starts here*/
+.responsivebar{
+    height: 50px;
+    width: 100%;
+    display: none !important;
+
+}
+
+.icon{
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid black;
+    margin: auto;
+}
+.respnavdiv1{
+    width: 15%;
+    text-align: center;
+}
+
+.respnavdiv2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.respnavdiv2 img{
+    height: 100%;
+    width: 50%;
+}
+.respnavdiv2 a{
+    margin: 1rem;
+
+}
+
+.respnavdiv3{
+    width: 15%;
+   
+}
+.respnavdiv3 div{
+    border: 1px solid rgb(0, 170, 255);
+}
+
+/*second after collapse navbar ends here*/
+
+/*hover animations*/
+.anchors{
+    
+    text-decoration: none;
+    color: black;
+}
+
+
+/* .anchors:hover{
+    
+    
+    
+} */
+@media (max-width:1024px)
+{
+
+    .navTop{
+        width: 100% ;
+    }
+    .innerCategories{
+
+    width: 50%;
+    margin: 0;
+
+    }
+    .section2Innerdiv{
+        width: 100%;
+    }
+    #section2 ul{
+        width: 90%;
+      
+       padding: 0;
+       margin: auto;
+
+    }
+    .section2Innerdiv{
+        margin: 0;
+    }
+    #section3 ul{
+        width: 45% ;
+    }
+    #section4{
+        width: 95%;
+    }
+    footer ul{
+        width: 37%;
+    }
+}
+@media (max-width:787px){
+
+    .innerCategories{
+        width: 75%;
+
+    }
+    #section2 ul{
+        width: 95%;
+        
+    }
+    #section3 ul{
+        margin: 0 22%;
+        width: 53%;
+    }
+    #section4{
+        display: block;
+
+    }
+    .section4LeftDiv{
+        width: 100%;
+    }
+    .section4RightDiv{
+        display: none;
+    }
+    footer ul{
+        width: 55%;
+    }
+
+}
+@media (max-width:426px)
+{
+    .navTop{
+       display: none;
+    }
+    .responsivebar{
+        display: block;
+        display: flex !important;
+    }
+    #section2{
+        display: none;
+    }
+    #section3{
+        display: none;
+
+    }
+    .secondImage{
+        height: 250px;
+    }
+    .thirdImage{
+        height: 250px;
+    }
+    .span3{
+        font-size: 10px !important;
+    }
+    footer ul{
+        width: 80%;
+        font-size:12px
+    }
+       
+    
+}
+@media (max-width:375px)
+{
+    .respnavdiv2 a {
+        margin: 1rem 0rem;
+    }
+    .span3{
+        font-size: 9px !important;
+    }
+    #section4 >div{
+        padding: 0 !important;
+    }
+}
+@media (max-width:321px)
+{
+       .cmntLikes{
+        font-size: 12px;
+       }
+       .cmnttime{
+        font-size: 12px;
+       }
+       .span3{
+        font-size: 7px !important;
+       }
+
+}
